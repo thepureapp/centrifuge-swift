@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "SwiftCentrifuge", targets: ["SwiftCentrifuge"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-protobuf", from:"1.7.0")
+        .package(url: "https://github.com/apple/swift-protobuf", .exact("1.26.0"))
     ],
     targets: [
         .target(
